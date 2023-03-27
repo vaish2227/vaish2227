@@ -2,7 +2,7 @@
 FROM ruby:2.7.4
 
 # Set the working directory
-WORKDIR /Vaish2227
+WORKDIR /app
 
 # Copy the Gemfile and Gemfile.lock into the image and install dependencies
 COPY Gemfile Gemfile.lock ./
